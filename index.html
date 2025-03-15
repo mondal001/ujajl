@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <style>
+    
+            body{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-size: cover;
+                background-position: center;
+                
+            }
+           
+div{
+    border:solid;
+    display: flex;
+    align-items: center;
+    
+    height: 400px;
+    width:400px;
+    border-radius:50px;
+    background-color: transparent;
+    backdrop-filter:blur(10px);
+    border-color: grey;
+  
+}
+input.one{
+    height:60px;
+    width:350px;
+    margin: 20;
+    border-radius: 30px;
+    background-color: transparent;
+    color:white;
+  
+}
+.btn{
+    margin-left:90px;
+    height:70px;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(161, 78, 238);
+    border-color: transparent;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    cursor:pointer;
+ 
+}
+.btn:hover{
+    box-shadow: 0px 0px 20px rgb(250, 25, 175);
+    transform: scale(1.1,1.1);
+   
+}
+
+        </style>
+    </head>
+    <body background="DALL·E 2025-03-12 20.45.50 - A high-quality dark-themed futuristic background with neon blue and purple accents, minimalistic tech design, and a cyberpunk-inspired abstract aesthe.webp"><script>
+        function roll(){
+     let user=document.form.rol.value;
+     let pass=document.form.pss.value;
+     let pss="ujjalrupu";
+     let usar="ujjal@rupu";
+            if(user==usar&&pass==pss){
+                alert("Welcome to ujjalrupu's website");
+           
+                }else if(user==""&&pass==""){
+                  confirm(" Please Enter The Username & Password");
+                }
+                else{
+                 alert("You are a fool");
+                }
+
+           
+
+        }
+    </script>
+
+  
+   <div>
+          <form name="form" onsubmit="roll()">
+            <input class="one" name="rol" placeholder="Entar Username">
+            <input class="one" name="pss" type="password" placeholder="Entar Password">
+    
+            <input class="btn" type="submit" value="Login">
+      </form>
+    </div></body>
+</html>
